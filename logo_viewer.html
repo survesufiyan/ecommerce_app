@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopHub Logo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .logo-display {
+            background: #f5f5f5;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+        .instructions {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 30px;
+            text-align: left;
+        }
+        .instructions h3 {
+            margin-top: 0;
+            color: #856404;
+        }
+        .instructions ol {
+            color: #856404;
+            line-height: 1.8;
+        }
+        .logo-icon {
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(135deg, #FF6B35, #FF8C5A);
+            border-radius: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3);
+        }
+        .bag-icon {
+            font-size: 100px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ShopHub Logo</h1>
+        
+        <div class="logo-display">
+            <div class="logo-icon">
+                <span class="bag-icon">🛍️</span>
+            </div>
+            <h2 style="color: #FF6B35; margin-top: 20px;">ShopHub</h2>
+        </div>
+
+        <div class="instructions">
+            <h3>📋 How to Create App Logo</h3>
+            <ol>
+                <li>Open the logo.svg file in a browser or image editor</li>
+                <li>Take a screenshot or use an SVG to PNG converter</li>
+                <li>Create the following sizes:
+                    <ul>
+                        <li>Android: 192x192, 512x512 (for launcher icons)</li>
+                        <li>iOS: 1024x1024 (for App Store)</li>
+                    </ul>
+                </li>
+                <li>Place in appropriate folders:
+                    <ul>
+                        <li>Android: android/app/src/main/res/mipmap-*/ic_launcher.png</li>
+                        <li>iOS: ios/Runner/Assets.xcassets/AppIcon.appiconset/</li>
+                    </ul>
+                </li>
+                <li>Or use the simple shopping bag emoji (🛍️) shown above as a quick alternative</li>
+            </ol>
+
+            <h3>🎨 Alternative Simple Approach</h3>
+            <p><strong>For quick testing, you can:</strong></p>
+            <ul>
+                <li>Use the default Flutter icon (no changes needed)</li>
+                <li>Or download any shopping bag icon from sites like:
+                    <ul>
+                        <li>flaticon.com</li>
+                        <li>icons8.com</li>
+                        <li>iconscout.com</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="instructions" style="background: #d1ecf1; border-color: #bee5eb;">
+            <h3 style="color: #0c5460;">💡 Note</h3>
+            <p style="color: #0c5460; margin: 0;">
+                The app will work perfectly fine without custom app icons. 
+                Icons are only needed for final production builds. 
+                For testing and development, the default Flutter icon is sufficient.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
