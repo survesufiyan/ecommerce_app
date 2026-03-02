@@ -1,10 +1,14 @@
 # ShopHub 🛍️
 
+![alt text](1772434469559.jpg)
+
 > A full-featured e-commerce mobile app built with Flutter — browse products, manage your cart, apply discount codes, and checkout with ease.
+
+**Contributions welcome!** See [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 
 ---
 
-##  Features
+## ✨ Features
 
 - **Splash Screen** — Animated logo on launch
 - **Login Screen** — Email & password validation (no backend required)
@@ -22,7 +26,7 @@
 
 ---
 
-##  Prerequisites
+## 📋 Prerequisites
 
 | Requirement | Version |
 |-------------|---------|
@@ -33,12 +37,12 @@
 
 ---
 
-##  Getting Started
+## 🚀 Getting Started
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/shophub.git
+git clone git clone https://github.com/survesufiyan/shophub.git
 cd shophub
 ```
 
@@ -69,7 +73,7 @@ The output APK will be at `build/app/outputs/flutter-apk/app-release.apk`.
 
 ---
 
-##  Test Credentials
+## 🔑 Test Credentials
 
 The login screen accepts any valid email + password (≥ 6 characters). No backend is required.
 
@@ -89,7 +93,7 @@ Password: password123
 
 ---
 
-##  Project Structure
+## 📁 Project Structure
 
 ```
 lib/
@@ -131,7 +135,7 @@ lib/
 
 ---
 
-##  API Reference
+## 🌐 API Reference
 
 This app uses the [Fake Store API](https://fakestoreapi.com) — no API key required.
 
@@ -144,21 +148,21 @@ This app uses the [Fake Store API](https://fakestoreapi.com) — no API key requ
 
 ---
 
-##  Dependencies
+## 📦 Dependencies
 
 ```yaml
 dependencies:
   flutter:
     sdk: flutter
-  provider: ^6.0.5          # State management
-  http: ^1.1.0              # REST API calls
+  provider: ^6.0.5              # State management
+  http: ^1.1.0                  # REST API calls
   cached_network_image: ^3.3.0  # Efficient image loading & caching
-  shimmer: ^3.0.0           # Skeleton loading animations
+  shimmer: ^3.0.0               # Skeleton loading animations
 ```
 
 ---
 
-##  Notes
+## 🗒️ Notes
 
 - **Authentication** is simulated — any valid email + 6-char password works
 - **Cart and wishlist** data is stored in memory (cleared on app restart)
@@ -168,7 +172,7 @@ dependencies:
 
 ---
 
-##  App Screens
+## 📸 App Screens
 
 | Screen | Description |
 |--------|-------------|
@@ -185,6 +189,77 @@ dependencies:
 
 ---
 
-##  License
+## 🤝 Contributing
+
+We welcome contributions of all kinds! Here's how to get involved:
+
+1. **Fork** the repository
+2. **Create a branch** — `git checkout -b feature/your-feature-name`
+3. **Make your changes** and run `flutter analyze`
+4. **Commit** — `git commit -m "feat: describe your change"`
+5. **Push** — `git push origin feature/your-feature-name`
+6. **Open a Pull Request** against `main`
+
+Read the full guide in [CONTRIBUTING.md](CONTRIBUTING.md) before submitting.
+
+### 🏷️ Good First Issues
+
+| Issue | Difficulty |
+|-------|------------|
+| Add shimmer loading to cart screen | Easy |
+| Add product rating stars to product card | Easy |
+| Add product search with real-time filtering | Medium |
+| Persist cart data using SharedPreferences | Medium |
+| Write widget tests for CartProvider | Medium |
+| Add dark mode support | Hard |
+
+---
+
+## ⚙️ GitHub Repo Setup
+
+### Recommended Settings (Settings tab on GitHub)
+
+**General**
+- ✅ Issues — enabled
+- ✅ Projects — enabled
+- ✅ Allow squash merging
+- ❌ Allow merge commits — disable
+- ❌ Allow rebase merging — disable
+
+**Branch Protection** (Settings → Branches → Add rule for `main`)
+- ✅ Require a pull request before merging
+- ✅ Require at least 1 approval
+- ✅ Dismiss stale reviews when new commits are pushed
+
+### Repo Topics
+
+Add these in the GitHub **About** section (gear icon) to improve discoverability:
+
+```
+flutter  dart  ecommerce  mobile  android  ios  provider  fake-store-api  open-source  hacktoberfest
+```
+
+> Adding `hacktoberfest` lists your repo automatically during Hacktoberfest in October — great for attracting contributors.
+
+---
+
+## 📂 Repository Structure
+
+```
+shophub/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   └── PULL_REQUEST_TEMPLATE.md
+├── lib/                    ← Flutter source code
+├── CONTRIBUTING.md
+├── README.md
+└── pubspec.yaml
+```
+
+---
+
+## 📄 License
 
 This project is for educational/demo purposes using publicly available data from [fakestoreapi.com](https://fakestoreapi.com).
