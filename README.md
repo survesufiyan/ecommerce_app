@@ -1,6 +1,9 @@
 # ShopHub 🛍️
 
 ![alt text](1772434469559.jpg)
+![alt text](Screenshot_2026-02-28-14-49-32-302_com.example.ecommerce_app.jpg)
+![alt text](1772434469549.jpg)
+![alt text](1772271831240.jpg)
 
 > A full-featured e-commerce mobile app built with Flutter — browse products, manage your cart, apply discount codes, and checkout with ease.
 
